@@ -51,3 +51,9 @@ function showResults() {
         }
     }
 }
+
+$(document).ready(function(){ 
+    $("#delete-all").click(function(){
+        $("select").empty();
+    });
+});
