@@ -1,0 +1,31 @@
+body{
+    background: rgb(15, 15, 15);
+    font: normal 15pt Arial;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    font-style: italic;
+    box-shadow: rgba(255, 254, 254, 0.664) 1px 1px 20px;
+}
+div{
+    text-align: center;
+}
+
+#number-taker {
+    display: block;
+}
+
+footer{
+    text-align: center;
+}

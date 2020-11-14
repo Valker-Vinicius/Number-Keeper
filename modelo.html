@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Number keeper</h1>
+    </header>
+    <section>
+        <div>
+            Type a number from 1 to 100:
+            <input type="number" id="user-value">
+            <button onClick="addNumber()">Confirm</button>
+        </div>
+        <div>
+            <select id="table" size="10">
+            </select>
+            <br><button onClick="showResults()">Submit</button>
+        </div>
+        <div id="results"></div>
+    </section>
+    <footer>
+        <p>&copy; Eitiri's</p>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
