@@ -1,6 +1,6 @@
 body{
     background: rgb(15, 15, 15);
-    font: normal 15pt Arial;
+    font: normal 20pt Arial;
     color: white;
 }
 
@@ -13,19 +13,43 @@ section{
     color: black;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 70vw;
     margin: auto;
-    font-style: italic;
     box-shadow: rgba(255, 254, 254, 0.664) 1px 1px 20px;
 }
 div{
     text-align: center;
 }
 
-#number-taker {
-    display: block;
+input {
+    -moz-appearance: textfield;
+
+    height: 1.5rem;
+
+    border-radius: 5px;
+    outline: none;
+    background-color: azure;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
-footer{
-    text-align: center;
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+
+    background-color: rgba(219, 213, 213, 0.959);
+
+    width: 8rem;
+    height: 3rem;
+
+    border: 0;
+    border-radius: 8px;
 }
+button:hover {
+    cursor: pointer;
+}
+
