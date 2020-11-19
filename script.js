@@ -6,7 +6,7 @@ var userInput
 function addNumber() {
     userInput = document.getElementById("user-value")
 
-    if ( Number(userInput.value) == 0 || Number(userInput.value) > 100 || numbers.includes(Number(userInput.value))) {
+    if ( Number(userInput.value) <= 0 || Number(userInput.value) > 100 || numbers.includes(Number(userInput.value))) {
         alert("The value is invalid or already in use")
     } else {
         numbers.push(Number(userInput.value))
